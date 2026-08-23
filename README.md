@@ -80,8 +80,3 @@ Downloaded files and text metadata will be stored in the `./downloads` folder on
 This wrapper relies on the original Python tool created by **John Sosoka**:
 - Repository: https://github.com/johnsosoka/rss-podcast-downloader
 
----
-
-## License
-
-MIT
