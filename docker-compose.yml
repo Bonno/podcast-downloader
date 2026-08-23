@@ -1,0 +1,9 @@
+services:
+  podcast-downloader:
+    build: .
+    volumes:
+      - ./downloads.db:/app/downloads.db
+      - ~/Music/Podcasts:/downloads
+    command: ["python", "rss-podcast-downloader.py"]
+    #command: ["/bin/sh"]
+    #entrypoint: "/bin/sh"
