@@ -25,8 +25,6 @@ This setup provides an isolated, non-root Docker environment and a convenient he
 ## Installation & Setup
 
 1. Clone this repository (or copy the project files to a local directory):
-   git clone <YOUR_REPOSITORY_URL>
-   cd <YOUR_REPOSITORY_DIRECTORY>
 
 2. Make the helper script executable:
    chmod +x podcast-downloader.sh
